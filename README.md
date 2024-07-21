@@ -43,6 +43,8 @@ src
         │   └── ...
         ├── services
         │   └── ...
+        ├── types
+        │   └── ...
         └── index.tsx
 ```
 
@@ -70,6 +72,7 @@ src
   - `context` - The `context` folder contains the global states of the page.
   - `hooks` - The `hooks` folder contains the custom hooks of the page.
   - `services` - The `services` folder contains the connection/queries of the page to the database.
+  - `types` - The `types` folder contains the relevant types and interfaces of the page.
   - `index.tsx` - This file contains the structure of the page and serves as an entry point of relative and absolute imports.
 
 > Made with ♥ by GDSC PLM '24-'25 #LearnEngageThrive #DevelopWithPurpose
