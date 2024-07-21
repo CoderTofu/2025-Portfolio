@@ -50,7 +50,9 @@ src
 
 #### Root Folders
 
-`public` - The public folder contains images, favicons, fonts, and scripts. `src` - The src folder contains the source code for the application itself.
+`public` - The public folder contains images, favicons, fonts, and scripts.
+
+`src` - The src folder contains the source code for the application itself.
 
 - `src/app` - The `app` folder under src contains the router and the theme of the application. If you want to add routes or adjust the theme, this is the folder that you're looking for.
 - `src/assets` - The `assets` folder under src contains the svg files or other media assets of the application.
@@ -62,11 +64,11 @@ src
 `src/app`
 
 - `router` - The `router` folder exposes a RouterObject that consists all of the routes in the application. The RouterObject is used in the `AppRouter.tsx` file.
-  - `layout` - The `layout` folder contains the general layout of the application. This template offers flexibility on the template and it can be modified based on the project requirements.
+  - `layout` - The `layout` folder contains the general layout of the application. This template offers flexibility and it can be modified based on the project requirements.
 
 `src/pages`
 
-- `[pageName]` - The `[pageName]` folder contains numerous subfolders that make up a whole page that is exposed in the `index.tsx` file.
+- `[pageName]` - The `[pageName]` folder contains numerous subfolders that make up a whole page and is exposed in the `index.tsx` file.
   - `components` - The `component` folder contains all of the components of the page.
   - `config` - The `config` folder is an optional folder that contains configurations for tables, sidebars, or anything similar.
   - `context` - The `context` folder contains the global states of the page.
