@@ -1,0 +1,66 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-divider {
+  height: 50px;
+  width: 100vw;
+  background-color: #fdcc1b;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.about-content {
+  margin: 100px 0;
+  padding: 0 5rem;
+}
+
+.about-header {
+  padding: 0 1rem 0 1rem;
+  width: 100%;
+  border-bottom: 2px solid #000;
+}
+
+.about-header h1 {
+  font-weight: 800;
+  font-size: 8rem;
+}
+
+.about-body {
+  display: flex;
+}
+
+.sides {
+  margin-top: 50px;
+}
+
+.left-side {
+  flex: 1;
+  max-width: 50vw;
+  margin-right: 60px;
+}
+
+.left-side .font-1 {
+  font-size: 2.2rem;
+}
+
+.titles {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.titles p {
+  margin-right: 100px;
+}
+
+.right-side {
+  width: 500px;
+}
+
+.right-side .font-3 {
+  font-size: 1.2rem;
+  opacity: 70%;
+}

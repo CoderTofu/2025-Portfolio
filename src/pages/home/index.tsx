@@ -1,25 +1,17 @@
 import "./index.css";
+import Navbar from "@/common/Navbar.tsx";
 
-import Logos from "./components/Logos";
-import useCounter from "./hooks/useCounter";
+import LandingSection from "./landing/landing.tsx";
+import AboutSection from "./about/about.tsx";
+import ContactSection from "./contact/contact.tsx";
 
 function Home() {
-  const { count, increment, decrement } = useCounter(0);
-
   return (
     <>
-      <Logos />
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={increment}>Increment count: {count}</button>
-        <button onClick={decrement}>Decrement count: {count}</button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+      <LandingSection />
+      <AboutSection />
+      <ContactSection />
     </>
   );
 }

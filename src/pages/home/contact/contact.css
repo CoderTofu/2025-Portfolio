@@ -1,0 +1,16 @@
+.contact-section {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fdcc1b;
+}
+
+.big-text {
+  position: absolute;
+  bottom: 0;
+  font-size: 20rem;
+  transform: translateY(35%);
+  opacity: 5%;
+}

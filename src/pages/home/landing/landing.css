@@ -1,0 +1,61 @@
+.main-section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.landing-img {
+  margin-top: 20px;
+  z-index: 10;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  overflow: hidden;
+  transform: translateY(-10%);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.scroll {
+  white-space: nowrap;
+  margin: 0 2em;
+}
+
+.scroll div {
+  display: flex;
+  gap: 2em;
+}
+
+.scroll p {
+  font-size: 350px;
+  color: #fdcc1b;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+}
+
+.RightToLeft {
+  animation: RightToLeft 30s infinite linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes RightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

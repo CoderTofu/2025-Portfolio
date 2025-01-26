@@ -1,6 +1,6 @@
-# GDSC PLM Web React Template Developer Guide
+# A Portfolio Website
 
-This template provides a minimal and flexible set up for GDSC PLM Web Development projects that uses React, TypeScript, MUI, and Firebase in Vite.
+This template was provided by the GDSC PLM Web React Template Developer Guide.
 
 ## Getting Started
 
