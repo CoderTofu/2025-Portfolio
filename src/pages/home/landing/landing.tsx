@@ -8,6 +8,9 @@ function LandingSection() {
         <div className="scroll">
           <div className="RightToLeft">
             <p className="font-2">Hello, I'm Juan Paolo B. Dionisio!</p>
+            <p className="font-2">A Learner.</p>
+            <p className="font-2">A Developer.</p>
+            <p className="font-2">A Creator.</p>
           </div>
         </div>
       </div>

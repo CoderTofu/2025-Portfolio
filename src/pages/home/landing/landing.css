@@ -39,7 +39,7 @@
 }
 
 .RightToLeft {
-  animation: RightToLeft 30s infinite linear;
+  animation: RightToLeft 100s infinite linear;
 }
 
 @keyframes fadeIn {
@@ -56,6 +56,6 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }

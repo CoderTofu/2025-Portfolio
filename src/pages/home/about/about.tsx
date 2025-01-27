@@ -1,4 +1,5 @@
 import "./about.css";
+import LinkIcon from "@/assets/link-svg.svg";
 
 export default function AboutSection() {
   return (
@@ -21,8 +22,9 @@ export default function AboutSection() {
                   Front-End Developer <br /> & CS Student
                 </p>
               </div>
-              <div>
+              <div className="explore">
                 <a href="#">Explore LinkedIn</a>
+                <img src={LinkIcon} alt="" />
               </div>
             </div>
           </div>
