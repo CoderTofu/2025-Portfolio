@@ -32,15 +32,28 @@ export default function AboutSection() {
           <div className="right-side sides">
             <p className="font-3">
               I am a 3rd-year Computer Science student at Pamantasan ng Lungsod
-              ng Maynila, specializing in frontend web development. <br />
-              <br />
-              As a team leader, I have successfully led multiple academic
-              projects, demonstrating strong leadership and collaboration
-              skills. I also have experience as a volunteer technical director
-              for major school events, showcasing my ability to handle
-              high-pressure tasks. <br /> <br />
-              Currently, I am seeking an internship opportunity to further
-              enhance my skills and contribute to impactful projects.
+              ng Maynila, specializing in frontend web development.
+              <br /> <br />
+              As the Web Development Lead for the{" "}
+              <span className="bold">
+                <span style={{ color: "#FBBC05" }}>G</span>
+                <span style={{ color: "#4285F4" }}>D</span>
+                <span style={{ color: "#34A853" }}>S</span>
+                <span style={{ color: "#EA4335" }}>C</span>
+              </span>{" "}
+              PLM, I have led multiple projects that contributed to the
+              organization’s initiatives, further honing my technical and
+              leadership skills.
+              <br /> <br />
+              Additionally, I have successfully led various academic projects,
+              demonstrating strong teamwork and problem-solving abilities. My
+              experience as a volunteer technical director for major school
+              events has also strengthened my ability to handle high-pressure
+              tasks efficiently.
+              <br /> <br />
+              Currently, I am seeking an internship opportunity to apply my
+              expertise, expand my knowledge, and contribute to impactful
+              projects.
             </p>
           </div>
         </div>

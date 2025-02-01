@@ -7,7 +7,7 @@ nav {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 30px 0px;
+  padding: 30px 40px;
   width: 100%;
   max-width: 1200px;
 }

@@ -1,5 +1,5 @@
 import "./index.css";
-import Navbar from "@/common/Navbar.tsx";
+import Navbar from "@/common/Navbar/Navbar.tsx";
 
 import LandingSection from "./landing/landing.tsx";
 import AboutSection from "./about/about.tsx";

@@ -6,6 +6,9 @@
 
 .landing-img {
   margin-top: 20px;
+  width: 100vw;
+  min-width: 1000px;
+  height: auto;
   z-index: 10;
   animation: fadeIn 2s ease-in-out;
 }
@@ -42,6 +45,10 @@
   animation: RightToLeft 100s infinite linear;
 }
 
+.RightToLeft p {
+  margin-right: 80px;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -57,5 +64,11 @@
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 1000px) {
+  .scroll p {
+    font-size: 200px;
   }
 }
